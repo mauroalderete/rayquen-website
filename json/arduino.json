@@ -1,0 +1,42 @@
+{
+    "skill": "arduino",
+    "title": "Arduino",
+    "img": "arduino/arduino.png",
+    "levels": [
+        "arduino1", "arduino2", "arduino3", "arduino4", "arduino5"
+    ],
+    "arduino1": {
+        "skill": "arduino",
+        "level": 1,
+        "name": "Arduino Prime",
+        "title": "Novato",
+        "durationLevel": 4,
+        "durationClass": "1:30",
+        "description": "Arduino es una excelente plataforma para iniciarse en la electrónica y la programación. Se trata de una placa programable lista para recibir todas las instrucciones que vos puedas imaginar. Se usa para construir grandiosos sistemas, juegos y robots.<br>En este taller aprenderás a armar tus primeros proyectos con Arduino. Veremos cómo funciona, cómo programarlo y cómo usar las mejores herramientas.",
+        "contents": [
+            "La plataforma Arduino",
+            "Introducción a la electricidad",
+            "Primeros componentes electrónicos",
+            "Secuencias de luces y actuadores",
+            "Módulos para Arduino"
+        ],
+        "bonus": {},
+        "requires": {},
+        "prices": {
+            "clase": {
+                "nominal": 0,
+                "discount": 0,
+                "final": 300
+            },
+            "mensual": {
+                "nominal": 1200,
+                "discount": 10,
+                "final": 1080
+            },
+            "fulllevel": {}
+        }
+    },
+    "next": {
+
+    }
+}

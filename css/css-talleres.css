@@ -1,0 +1,334 @@
+
+/******************************************
+* 0. Slider Section
+*******************************************/
+.interface-slider2 .swiper-slide {
+    width: 300px;
+    height: auto;
+    padding: 0 15px;
+}
+.interface-slider2 .swiper-slide img {
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.interface-slider2 .swiper-slide .xboo__overlay::before {
+    opacity: 0;
+}
+.interface-slider2 .swiper-slide.swiper-slide-active:hover .xboo__overlay::before {
+    opacity: 0.35;
+}
+
+/******************************************
+* 1. Levels Section
+*******************************************/
+
+.talleresSection{
+	padding: 0px 20px;
+	margin-top: 30px;
+}
+
+.tallerColumn{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px auto;
+}
+
+.noshow{
+	display: none;
+}
+
+/******************************************
+* 2. Levels CARDS
+*******************************************/
+
+.tallerCard{
+	width: 300px;
+	min-width: 300px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #a343f8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -ms-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+	background: linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tallerCard:hover {
+	opacity: .8;
+}
+
+.tallerBranchBar{
+	padding: 0px;
+	padding-left: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #deccf7;
+}
+
+.tallerBranchLegend{
+	color: #bb74f8;
+	font-weight: bold;
+}
+
+.tallerLevelLegend{
+	text-align: end;
+	padding-right: 25px;
+}
+
+.tallerNameArea{
+	padding-top: 5px;
+	margin-bottom: 0;
+}
+
+.tallerName{
+	font-family: "Roboto Condensed", "Cocon-RegularTR";
+	font-size: 25px;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 10px;
+	line-height: 1em;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.tallerTitleArea{
+	padding-left: 0px;
+	text-align: center;
+	color: #000000;
+}
+
+.tallerTitleIcon{
+	text-align: center;
+}
+
+.tallerTitle{
+	font-weight: bold;
+	text-align: center;
+	font-size: 10px;
+	line-height: 1em;
+}
+
+.tallerExp{
+	font-weight: bold;
+	color: #fd714e;
+	font-size: 18px;
+	text-align: center;
+}
+
+.tallerDurationBar{
+	width: 100%;
+	margin: 6px 0px;
+	height: auto;
+	margin-top: 6px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #5225f8), color-stop(50%, #633af8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background-image: -o-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background: -ms-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background: -webkit-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background: -o-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+	background: linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+
+	font-size: 12px;
+	color: #deccf7;
+
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.tallerDurationClass{
+	padding-left: 10px;
+}
+
+.tallerDurationHour{
+	text-align: end;
+	padding-right: 10px;
+
+}
+
+/************************************************
+* 3. Modal
+*************************************************/
+
+.modal-content{
+	color: rgb(58, 57, 57);
+	font-size: 15px;
+}
+
+.modal-header, h4, .close {
+    color:white !important;
+	font-size: 30px;
+	font-family: "Roboto Condensed", "Cocon-RegularTR";
+  }
+
+  .modal-header{
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #a343f8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -ms-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+	background: linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+  }
+
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+
+.modal-tallerInfo-body{
+	font-family: 'Montserrat';
+}
+
+.modal-title{
+	color: #fd714e;
+	font-family: "Roboto Condensed", "Cocon-RegularTR";
+	margin-top: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.modal-title i{
+	color: #fd714e;
+}
+
+.modal-subtitle{
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.modal-exp .row{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	line-height: 1em;
+	margin-top: 20px;
+}
+
+.modal-exp .col{
+	margin-bottom: 30px;
+	color: rgb(8, 151, 8);
+}
+
+.exp{
+	color: rgb(8, 151, 8);
+	font-weight: bold;
+}
+
+.skill{
+	color: rgb(52, 52, 189);
+	font-weight: bold;
+}
+
+.modal-contents{
+	margin-left: 20px;
+}
+
+.modal-contents-dot{
+	float: left;
+	background: transparent none repeat scroll 0 0;
+	border: 2px solid #F86754;
+  height: 10px;
+  opacity: .7;
+  width: 10px;
+  border-radius: 100%; 
+  margin-top: 7px;
+  margin-right: 10px;
+  
+    border: none;
+    background-color: #F86754;
+    background-image: -moz-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #F86754), color-stop(100%, #fabe61));
+    background-image: -webkit-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background-image: -o-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: -ms-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: -webkit-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: -o-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    opacity: 1; 
+}
+
+.modal-requires i{
+	color: rgb(13, 201, 13);
+}
+
+.modal-requires .fa-question{
+	color: rgb(209, 94, 0);
+}
+
+.modal-price{
+	text-align: center;
+}
+
+
+.plan{
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.off{
+
+}
+
+.off-old{
+	text-decoration-line: line-through;
+}
+
+.precio{
+	font-weight: bold;
+	color: rgb(8, 117, 8);
+}
+
+.modal-footer{
+	display: inline;
+	text-align: center;
+	justify-content: space-around;
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #a343f8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -ms-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+	background: linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+}
+
+
+.footer-line{
+	margin-top: 25px;
+	border-bottom-style: solid;
+	border-bottom-color: #fd714e;
+	border-bottom-width: 1px;
+}
+
+.btn-tallerInfoSelect{
+	padding-top: 2px;
+	line-height: 1.5em;
+}
+
+.lbl-tallerInfoSelect{
+	color: white;
+	font-family: 'Montserrat';
+}
+
+.btn-close{
+	color: white;
+}

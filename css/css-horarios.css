@@ -1,0 +1,205 @@
+
+/******************************************
+* 0. Slider Section
+*******************************************/
+
+#stepTwo{
+    justify-content: center;
+}
+
+.horario-content{
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.col-hora{
+    width: 80px;
+}
+
+.col-horarios{
+}
+
+.horizontal-scroll{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.horario-hora{
+    height: 60px;
+    width: 80px;
+	border: 1px solid;
+	text-align: end;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+    font-size: 15px;
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.col-day{
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    float: left;
+    
+    margin: 0px;
+    padding: 0px;
+
+    margin-left: 10px;
+}
+
+.horario-header-height{
+    height: 30px;
+}
+
+.horario-header{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+    font-size: 14px;
+    
+    justify-content: center;
+
+	color: rgb(255, 255, 255);
+
+    background-color: #6d55c2;
+}
+
+.horario-horario{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+}
+
+.horario-status{
+    width: 100%;
+    height: 50px;
+    margin: 3px 0 0 0;
+    padding: 0px;
+        
+	border-radius: 10px;
+
+	padding-top: 14px;
+
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:white;
+}
+
+
+.horario-busy{
+	background-color: #b84848;
+}
+
+.horario-reserved{
+	background-color: #3e3c3f;
+}
+
+.horario-free{
+	background-color: #72e795;
+}
+
+.horario-1{
+	background-color: #514c64;
+    background-image: -moz-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #d699ff));
+    background-image: -webkit-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background-image: -o-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background: -ms-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background: -webkit-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background: -o-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+	background: linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+}
+
+.horario-2{
+	background-color: #864d02;
+    background-image: -moz-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #864d02), color-stop(90%, #f7be74));
+    background-image: -webkit-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background-image: -o-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background: -ms-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background: -webkit-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background: -o-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+	background: linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+}
+
+.horario-3{
+	background-color: #347048;
+    background-image: -moz-linear-gradient(90deg, #347048 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #347048), color-stop(90%, #72e795));
+    background-image: -webkit-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background-image: -o-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background: -ms-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background: -webkit-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background: -o-linear-gradient(90deg, #347048 0%, #72e795 90%);
+	background: linear-gradient(90deg, #347048 0%, #72e795 90%);
+}
+
+.horario-4{
+	background-color: #284968;
+    background-image: -moz-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #284968), color-stop(90%, #6ca7ff));
+    background-image: -webkit-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background-image: -o-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background: -ms-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background: -webkit-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background: -o-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+	background: linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+}
+
+.horario-5{
+	background-color: #3026b9;
+    background-image: -moz-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #3026b9), color-stop(90%, #9f99ec));
+    background-image: -webkit-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background-image: -o-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background: -ms-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background: -webkit-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background: -o-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+	background: linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+}
+
+.horario-6{
+	background-color: #2a2a2c;
+    background-image: -moz-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #2a2a2c), color-stop(90%, #7d7d80));
+    background-image: -webkit-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background-image: -o-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background: -ms-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background: -webkit-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background: -o-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+	background: linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+}
+
+/******************************************
+* 1. Levels Section
+*******************************************/
+
+/******************************************
+* 2. Levels CARDS
+*******************************************/
+
+/************************************************
+* 3. Modal
+********************************************/
+

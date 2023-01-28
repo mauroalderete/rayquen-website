@@ -1,0 +1,515 @@
+/*--------------------------------------------------------------
+
+Template: Templat Name
+Author:
+Author URI:
+Version:  1.0
+Design and Developed by:
+
+Note: This is the file where you can add your custom styles to change the look of the theme.
+But don't modify "style.css" file.
+
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom CSS code here:
+-------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@font-face {
+	font-family: "Cocon-RegularTR";
+	src: url("../fonts/Cocon-RegularTR.ttf");
+  }
+
+  /*COLORES
+  *gradiente dark	#5225f8
+  *gradiente light	#a343f8
+  *skill legend		#a343f8
+  *header			#b683fb
+  *name				#ffffff
+  *title icon		#383838
+  *title			#383838
+  *exp				#f87656
+  *footbar			#5225f8
+  *foot font		#b683fb
+  */
+
+
+.talleresSection{
+	padding: 0px 20px;
+}
+
+.tallerColumn{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px auto;
+}
+
+.tallerCard{
+	width: 300px;
+	min-width: 300px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #a343f8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -ms-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+	background: linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tallerCard:hover {
+	opacity: .8;
+}
+
+.tallerBranchBar{
+	padding: 0px;
+	padding-left: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #deccf7;
+}
+
+.tallerBranchLegend{
+	color: #bb74f8;
+	font-weight: bold;
+}
+
+.tallerLevelLegend{
+	text-align: end;
+	padding-right: 25px;
+}
+
+.tallerNameArea{
+	padding-top: 5px;
+	margin-bottom: 0;
+}
+
+.tallerName{
+	font-family: "Roboto Condensed", "Cocon-RegularTR";
+	font-size: 25px;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 10px;
+	line-height: 1em;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.tallerTitleArea{
+	padding-left: 0px;
+	text-align: center;
+	color: #000000;
+}
+
+.tallerTitleIcon{
+	text-align: center;
+}
+
+.tallerTitle{
+	font-weight: bold;
+	text-align: center;
+	font-size: 10px;
+	line-height: 1em;
+}
+
+.tallerExp{
+	font-weight: bold;
+	color: #fd714e;
+	font-size: 18px;
+	text-align: center;
+}
+
+.tallerDurationBar{
+	width: 100%;
+	margin: 6px 0px;
+	height: auto;
+	margin-top: 6px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #5225f8), color-stop(50%, #633af8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background-image: -o-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background: -ms-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background: -webkit-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+    background: -o-linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+	background: linear-gradient(45deg, #5225f8 30%, #633af8 50%);
+
+	font-size: 12px;
+	color: #deccf7;
+
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.tallerDurationClass{
+	padding-left: 10px;
+}
+
+.tallerDurationHour{
+	text-align: end;
+	padding-right: 10px;
+
+}
+
+.modal-content{
+	color: rgb(58, 57, 57);
+	font-size: 15px;
+}
+
+.modal-header, h4, .close {
+    color:white !important;
+	font-size: 30px;
+	font-family: "Roboto Condensed", "Cocon-RegularTR";
+  }
+
+  .modal-header{
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #a343f8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -ms-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+	background: linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+  }
+
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+
+.modal-tallerInfo-body{
+	font-family: 'Montserrat';
+}
+
+.modal-title{
+	color: #fd714e;
+	font-family: "Roboto Condensed", "Cocon-RegularTR";
+	margin-top: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.modal-title i{
+	color: #fd714e;
+}
+
+.modal-subtitle{
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.modal-exp .row{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	line-height: 1em;
+	margin-top: 20px;
+}
+
+.modal-exp .col{
+	margin-bottom: 30px;
+	color: rgb(8, 151, 8);
+}
+
+.exp{
+	color: rgb(8, 151, 8);
+	font-weight: bold;
+}
+
+.skill{
+	color: rgb(52, 52, 189);
+	font-weight: bold;
+}
+
+.modal-contents{
+	margin-left: 20px;
+}
+
+.modal-contents-dot{
+	float: left;
+	background: transparent none repeat scroll 0 0;
+	border: 2px solid #F86754;
+  height: 10px;
+  opacity: .7;
+  width: 10px;
+  border-radius: 100%; 
+  margin-top: 7px;
+  margin-right: 10px;
+  
+    border: none;
+    background-color: #F86754;
+    background-image: -moz-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #F86754), color-stop(100%, #fabe61));
+    background-image: -webkit-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background-image: -o-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: -ms-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: -webkit-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: -o-linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    background: linear-gradient(45deg, #F86754 0%, #fabe61 100%);
+    opacity: 1; 
+}
+
+.modal-requires i{
+	color: rgb(13, 201, 13);
+}
+
+.modal-price{
+	text-align: center;
+}
+
+.plan{
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.off{
+
+}
+
+.off-old{
+	text-decoration-line: line-through;
+}
+
+.precio{
+	font-weight: bold;
+	color: rgb(8, 117, 8);
+}
+
+.modal-footer{
+	display: inline;
+	text-align: center;
+	justify-content: space-around;
+	background-color: #5225f8;
+    background-image: -moz-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #a343f8));
+    background-image: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background-image: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -ms-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -webkit-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+    background: -o-linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+	background: linear-gradient(45deg, #5225f8 0%, #a343f8 90%);
+}
+
+
+.footer-line{
+	margin-top: 25px;
+	border-bottom-style: solid;
+	border-bottom-color: #fd714e;
+	border-bottom-width: 1px;
+}
+
+.btn-tallerInfoSelect{
+	padding-top: 2px;
+	line-height: 1.5em;
+}
+
+.lbl-tallerInfoSelect{
+	color: white;
+	font-family: 'Montserrat';
+}
+
+.btn-close{
+	color: white;
+}
+
+
+/*********************
+Horarios
+*********************/
+
+.horario-header{
+	margin-bottom: 5px;
+}
+
+.horario-null{
+
+}
+
+.horario-day{
+	text-align: center;
+	text-transform: uppercase;
+
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 14px;
+
+	color: white;
+
+	background-color: #6d55c2;
+  
+	
+}
+
+.horario-fila{
+	height: 50px;
+	margin-bottom: 7px;
+}
+
+.col{
+	margin-left: 16px;
+}
+
+.horario-status{
+	width: 100%;
+	height: 100%;
+
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+	padding-top: 14px;
+
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:white;
+
+
+}
+
+.horario-busy{
+	background-color: #b84848;
+}
+
+.horario-reserved{
+	background-color: #3e3c3f;
+}
+
+.horario-free{
+	background-color: #72e795;
+}
+
+.horario-horario{
+	height: 100%;
+	border: 1px solid;
+	text-align: end;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	color: white;
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 1.5em;
+	padding-top: 2px;
+}
+
+.horario-1{
+	background-color: #514c64;
+    background-image: -moz-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #5225f8), color-stop(90%, #d699ff));
+    background-image: -webkit-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background-image: -o-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background: -ms-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background: -webkit-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+    background: -o-linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+	background: linear-gradient(90deg, #514c64 0%, #d699ff 90%);
+}
+
+.horario-2{
+	background-color: #864d02;
+    background-image: -moz-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #864d02), color-stop(90%, #f7be74));
+    background-image: -webkit-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background-image: -o-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background: -ms-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background: -webkit-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+    background: -o-linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+	background: linear-gradient(90deg, #864d02 0%, #f7be74 90%);
+}
+
+.horario-3{
+	background-color: #347048;
+    background-image: -moz-linear-gradient(90deg, #347048 0%, #a343f8 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #347048), color-stop(90%, #72e795));
+    background-image: -webkit-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background-image: -o-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background: -ms-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background: -webkit-linear-gradient(90deg, #347048 0%, #72e795 90%);
+    background: -o-linear-gradient(90deg, #347048 0%, #72e795 90%);
+	background: linear-gradient(90deg, #347048 0%, #72e795 90%);
+}
+
+.horario-4{
+	background-color: #284968;
+    background-image: -moz-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #284968), color-stop(90%, #6ca7ff));
+    background-image: -webkit-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background-image: -o-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background: -ms-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background: -webkit-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+    background: -o-linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+	background: linear-gradient(90deg, #284968 0%, #6ca7ff 90%);
+}
+
+.horario-5{
+	background-color: #3026b9;
+    background-image: -moz-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #3026b9), color-stop(90%, #9f99ec));
+    background-image: -webkit-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background-image: -o-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background: -ms-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background: -webkit-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+    background: -o-linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+	background: linear-gradient(90deg, #3026b9 0%, #9f99ec 90%);
+}
+
+.horario-6{
+	background-color: #2a2a2c;
+    background-image: -moz-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #2a2a2c), color-stop(90%, #7d7d80));
+    background-image: -webkit-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background-image: -o-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background: -ms-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background: -webkit-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+    background: -o-linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+	background: linear-gradient(90deg, #2a2a2c 0%, #7d7d80 90%);
+}
+
+/*******************************************
+* Datos Personales::datos.html
+********************************************/
+
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+}
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+}
+
+.personaldata-title{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed';
+	font-size: 30px;
+	color: rgb(77, 75, 75);
+	margin-bottom: 30px;
+}
+
+.btn-doubleLine{
+	line-height: 1.5em;
+}
