@@ -956,7 +956,8 @@ h6 {
   padding: 20px 0; }
 
 .main-menu > li {
-  margin-left: 25px; }
+  margin-left: 25px;
+  align-self: center; }
   .main-menu > li a {
     color: #404040;
     font-family: "Poppins", sans-serif;
