@@ -18,7 +18,7 @@ workshops.arduino1.description = "Arduino es una excelente plataforma para"+
 workshops.arduino1.durationLevel = 4 
 workshops.arduino1.durationClass = "1:30";
 workshops.arduino1.bonus = {};
-workshops.arduino1.bonus.arduino = 1500; 
+workshops.arduino1.bonus.arduino = 300;
 workshops.arduino1.bonus.robotica = 25;
 workshops.arduino1.bonus.programacion = 10;
 workshops.arduino1.bonus.electronica = 25;
@@ -33,15 +33,15 @@ workshops.arduino1.prices = {};
 workshops.arduino1.prices.clase = {};
 workshops.arduino1.prices.mensual = {};
 workshops.arduino1.prices.fulllevel = {};
-workshops.arduino1.prices.clase.old = 250;
-workshops.arduino1.prices.clase.bonus = 20;
-workshops.arduino1.prices.clase.new = 200;
-workshops.arduino1.prices.mensual.old = 1400;
-workshops.arduino1.prices.mensual.bonus = 28;
-workshops.arduino1.prices.mensual.new = 1000;
-workshops.arduino1.prices.fulllevel.old = 1200;
-workshops.arduino1.prices.fulllevel.bonus = 33;
-workshops.arduino1.prices.fulllevel.new = 800;
+workshops.arduino1.prices.clase.old = 3000;
+workshops.arduino1.prices.clase.bonus = 5;
+workshops.arduino1.prices.clase.new = 2850;
+workshops.arduino1.prices.mensual.old = 12000;
+workshops.arduino1.prices.mensual.bonus = 10;
+workshops.arduino1.prices.mensual.new = 10800;
+workshops.arduino1.prices.fulllevel.old = 12000;
+workshops.arduino1.prices.fulllevel.bonus = 10;
+workshops.arduino1.prices.fulllevel.new = 10800;
 workshops.arduino1.contents = [];
 workshops.arduino1.contents[0] = "La plataforma Arduino";
 workshops.arduino1.contents[1] = "Introducción a la electricidad";
@@ -56,38 +56,37 @@ workshops.arduino2.level = 2
 workshops.arduino2.name = "Fundamentos"
 workshops.arduino2.title = "Echando raíces"
 workshops.arduino2.description = "En este segundo nivel estudiaremos con mayor profundidad la placa Arduino. \
-Observaremos diferentes formas de encenderlas. Aprenderemos a utilizar las entredas y salidas de datos \
+Observaremos diferentes formas de encenderlas. Aprenderemos a utilizar las entradas y salidas de datos \
 digitales y analógicos. Indagaremos más sobre como elegir los componentes electrónicos adecuados. \
 Y aprenderemos nuevas estrategias de programación para resolver diversos problemas.<br>\
 Construiremos algunos circuitos divertidos mientras exploramos y analizaremos como otras personas en el mundo utilizan Arduino.";
 workshops.arduino2.durationLevel = 4 
 workshops.arduino2.durationClass = "1:30";
 workshops.arduino2.bonus = {};
-workshops.arduino2.bonus.arduino = 3000; 
-workshops.arduino2.bonus.robotica = 25;
-workshops.arduino2.bonus.programacion = 10;
-workshops.arduino2.bonus.electronica = 25;
-workshops.arduino2.bonus.electricidad = 5;
+workshops.arduino2.bonus.arduino = 300; 
+workshops.arduino2.bonus.robotica = 10;
+workshops.arduino2.bonus.programacion = 25;
+workshops.arduino2.bonus.electronica = 40;
+workshops.arduino2.bonus.electricidad = 20;
 workshops.arduino2.extrabonus = {};
 workshops.arduino2.extrabonus.programacion = 18300;
 workshops.arduino2.extrabonus.electronica = 7500;
 workshops.arduino2.extrabonus.robotica = 1275;
 workshops.arduino2.extrabonus.electricidad = 500;
 workshops.arduino2.requires = { "arduino": workshops.arduino1.bonus.arduino }
-workshops.arduino2.requires.arduino = 300;
 workshops.arduino2.prices = {};
 workshops.arduino2.prices.clase = {};
 workshops.arduino2.prices.mensual = {};
 workshops.arduino2.prices.fulllevel = {};
-workshops.arduino2.prices.clase.old = 250;
-workshops.arduino2.prices.clase.bonus = 20;
-workshops.arduino2.prices.clase.new = 200;
-workshops.arduino2.prices.mensual.old = 1400;
-workshops.arduino2.prices.mensual.bonus = 28;
-workshops.arduino2.prices.mensual.new = 1000;
-workshops.arduino2.prices.fulllevel.old = 1200;
-workshops.arduino2.prices.fulllevel.bonus = 33;
-workshops.arduino2.prices.fulllevel.new = 800;
+workshops.arduino2.prices.clase.old = 3000;
+workshops.arduino2.prices.clase.bonus = 5;
+workshops.arduino2.prices.clase.new = 2850;
+workshops.arduino2.prices.mensual.old = 12000;
+workshops.arduino2.prices.mensual.bonus = 10;
+workshops.arduino2.prices.mensual.new = 10800;
+workshops.arduino2.prices.fulllevel.old = 12000;
+workshops.arduino2.prices.fulllevel.bonus = 10;
+workshops.arduino2.prices.fulllevel.new = 10800;
 workshops.arduino2.contents = [];
 workshops.arduino2.contents[0] = "Datos, información y señales.";
 workshops.arduino2.contents[1] = "Entradas y salidas digitales";
@@ -102,7 +101,7 @@ workshops.arduino3.skill = "arduino";
 workshops.arduino3.level = 3
 workshops.arduino3.name = "BingBang: Expansión de Módulos"
 workshops.arduino3.title = "Conquistador"
-workshops.arduino3.description = "Arduino es una placa fantástica, pero lo es aún mas si lo combinamos"+
+workshops.arduino3.description = "Arduino es una placa fantástica, pero lo es aún más si lo combinamos"+
 " con los numerosos módulos que se encuentran en el mercado. Módulos para mostrar datos,"+
 " módulos para detectar calor, sonidos, colores, módulos para conectarse con otros dispositivos."+
 " En este nivel veremos los 12 módulos para Arduino más populares. Aprenderemos a "+
@@ -113,11 +112,11 @@ workshops.arduino3.description = "Arduino es una placa fantástica, pero lo es a
 workshops.arduino3.durationLevel = 8
 workshops.arduino3.durationClass = "1:30";
 workshops.arduino3.bonus = {};
-workshops.arduino3.bonus.arduino = 4500; 
-workshops.arduino3.bonus.robotica = 25;
-workshops.arduino3.bonus.programacion = 10;
-workshops.arduino3.bonus.electronica = 25;
-workshops.arduino3.bonus.electricidad = 5;
+workshops.arduino3.bonus.arduino = 450; 
+workshops.arduino3.bonus.robotica = 30;
+workshops.arduino3.bonus.programacion = 50;
+workshops.arduino3.bonus.electronica = 150;
+workshops.arduino3.bonus.electricidad = 90;
 workshops.arduino3.extrabonus = {};
 workshops.arduino3.extrabonus.programacion = 18300;
 workshops.arduino3.extrabonus.electronica = 7500;
@@ -130,15 +129,15 @@ workshops.arduino3.prices = {};
 workshops.arduino3.prices.clase = {};
 workshops.arduino3.prices.mensual = {};
 workshops.arduino3.prices.fulllevel = {};
-workshops.arduino3.prices.clase.old = 250;
-workshops.arduino3.prices.clase.bonus = 20;
-workshops.arduino3.prices.clase.new = 200;
-workshops.arduino3.prices.mensual.old = 1400;
-workshops.arduino3.prices.mensual.bonus = 28;
-workshops.arduino3.prices.mensual.new = 1000;
-workshops.arduino3.prices.fulllevel.old = 1200;
-workshops.arduino3.prices.fulllevel.bonus = 33;
-workshops.arduino3.prices.fulllevel.new = 800;
+workshops.arduino3.prices.clase.old = 3000;
+workshops.arduino3.prices.clase.bonus = 5;
+workshops.arduino3.prices.clase.new = 2850;
+workshops.arduino3.prices.mensual.old = 12000;
+workshops.arduino3.prices.mensual.bonus = 10;
+workshops.arduino3.prices.mensual.new = 10800;
+workshops.arduino3.prices.fulllevel.old = 24000;
+workshops.arduino3.prices.fulllevel.bonus = 20;
+workshops.arduino3.prices.fulllevel.new = 19200;
 workshops.arduino3.contents = [];
 workshops.arduino3.contents[0] = "La tensión electrica";
 workshops.arduino3.contents[1] = "Divisores de tensión";
@@ -156,18 +155,17 @@ workshops.arduino4.name = "Ardubótica"
 workshops.arduino4.title = "I Choose You!"
 workshops.arduino4.description = "Utilizando los módulos vistos en el nivel anterior nos introduciremos\
  en el maravilloso mundo de la Robótica con Arduino.<br>\
-Construiremos robots moviles biomórficos, brazos robóticos y robots competitivos.<br>\
-Durante el transcurso de los desafios del nivel exploraremos formas de utilizar los distintos tipos de motores. \
+Construiremos robots móviles biomórficos, brazos robóticos y robots competitivos.<br>\
+Durante el transcurso de los desafíos del nivel exploraremos formas de utilizar los distintos tipos de motores. \
 Veremos algunas estrategias de programación usuales para afrontar el problema del movimiento. \
-Ademas daremos un vistazo a la construcción y diseño de estructuras usando las herramientas del taller de modding.";
+Adémas daremos un vistazo a la construcción y diseño de estructuras usando las herramientas del taller de modding.";
 workshops.arduino4.durationLevel = 12;
 workshops.arduino4.durationClass = "1:30";
 workshops.arduino4.bonus = {};
-workshops.arduino4.bonus.arduino = 6000; 
-workshops.arduino4.bonus.robotica = 25;
-workshops.arduino4.bonus.programacion = 10;
-workshops.arduino4.bonus.electronica = 25;
-workshops.arduino4.bonus.electricidad = 5;
+workshops.arduino4.bonus.arduino = 600; 
+workshops.arduino4.bonus.robotica = 400;
+workshops.arduino4.bonus.programacion = 200;
+workshops.arduino4.bonus.electronica = 100;
 workshops.arduino4.extrabonus = {};
 workshops.arduino4.extrabonus.programacion = 18300;
 workshops.arduino4.extrabonus.electronica = 7500;
@@ -181,15 +179,15 @@ workshops.arduino4.prices = {};
 workshops.arduino4.prices.clase = {};
 workshops.arduino4.prices.mensual = {};
 workshops.arduino4.prices.fulllevel = {};
-workshops.arduino4.prices.clase.old = 250;
-workshops.arduino4.prices.clase.bonus = 20;
-workshops.arduino4.prices.clase.new = 200;
-workshops.arduino4.prices.mensual.old = 1400;
-workshops.arduino4.prices.mensual.bonus = 28;
-workshops.arduino4.prices.mensual.new = 1000;
-workshops.arduino4.prices.fulllevel.old = 1200;
-workshops.arduino4.prices.fulllevel.bonus = 33;
-workshops.arduino4.prices.fulllevel.new = 800;
+workshops.arduino4.prices.clase.old = 3000;
+workshops.arduino4.prices.clase.bonus = 5;
+workshops.arduino4.prices.clase.new = 2850;
+workshops.arduino4.prices.mensual.old = 12000;
+workshops.arduino4.prices.mensual.bonus = 10;
+workshops.arduino4.prices.mensual.new = 10800;
+workshops.arduino4.prices.fulllevel.old = 36000;
+workshops.arduino4.prices.fulllevel.bonus = 20;
+workshops.arduino4.prices.fulllevel.new = 28800;
 workshops.arduino4.contents = [];
 workshops.arduino4.contents[0] = "La Robótica con Arduino";
 workshops.arduino4.contents[1] = "Tipos y funcionamiento de motores";
@@ -213,15 +211,14 @@ En este nivel veremos los principales mecanismos que brinda Arduino para comunic
 como computadoras personales, celulares y otros sistemas embebidos.<br> \
 Exploraremos los protocolos de comunicación sus ventajas y cuando utilizarlos mediante medios físicos e inalámbricos.<br> \
 Al mismo tiempo, como Arduino no se comunicará solo, aprenderemos a diseñar, construir y programar diversas interfaces para PC \
-que nos ayudarán a monitorear e intarcambiar información con nuestros sistemas.";
+que nos ayudarán a monitorear e intercambiar información con nuestros sistemas.";
 workshops.arduino5.durationLevel = 12
 workshops.arduino5.durationClass = "1:30";
 workshops.arduino5.bonus = {};
-workshops.arduino5.bonus.arduino = 7500; 
-workshops.arduino5.bonus.robotica = 25;
-workshops.arduino5.bonus.programacion = 10;
-workshops.arduino5.bonus.electronica = 25;
-workshops.arduino5.bonus.electricidad = 5;
+workshops.arduino5.bonus.arduino = 750; 
+workshops.arduino5.bonus.programacion = 150;
+workshops.arduino5.bonus.electronica = 150;
+workshops.arduino5.bonus.electricidad = 50;
 workshops.arduino5.extrabonus = {};
 workshops.arduino5.extrabonus.programacion = 18300;
 workshops.arduino5.extrabonus.electronica = 7500;
@@ -236,15 +233,15 @@ workshops.arduino5.prices = {};
 workshops.arduino5.prices.clase = {};
 workshops.arduino5.prices.mensual = {};
 workshops.arduino5.prices.fulllevel = {};
-workshops.arduino5.prices.clase.old = 250;
-workshops.arduino5.prices.clase.bonus = 20;
-workshops.arduino5.prices.clase.new = 200;
-workshops.arduino5.prices.mensual.old = 1400;
-workshops.arduino5.prices.mensual.bonus = 28;
-workshops.arduino5.prices.mensual.new = 1000;
-workshops.arduino5.prices.fulllevel.old = 1200;
-workshops.arduino5.prices.fulllevel.bonus = 33;
-workshops.arduino5.prices.fulllevel.new = 800;
+workshops.arduino5.prices.clase.old = 3000;
+workshops.arduino5.prices.clase.bonus = 5;
+workshops.arduino5.prices.clase.new = 2850;
+workshops.arduino5.prices.mensual.old = 12000;
+workshops.arduino5.prices.mensual.bonus = 10;
+workshops.arduino5.prices.mensual.new = 10800;
+workshops.arduino5.prices.fulllevel.old = 36000;
+workshops.arduino5.prices.fulllevel.bonus = 20;
+workshops.arduino5.prices.fulllevel.new = 28800;
 workshops.arduino5.contents = [];
 workshops.arduino5.contents[0] = "Telemática";
 workshops.arduino5.contents[1] = "Protocolos Series en profundiad: I2C, SPI";
@@ -259,20 +256,18 @@ workshops.arduino6.skill = "arduino";
 workshops.arduino6.level = 6
 workshops.arduino6.name = "Ardu + IOT"
 workshops.arduino6.title = "Sabio de la conectividad"
-workshops.arduino6.description = "Como no podia ser de otra manera incursionaremos en el sistema de conectividad que lo revolucionó todo. \
+workshops.arduino6.description = "Como no podía ser de otra manera incursionaremos en el sistema de conectividad que lo revolucionó todo. \
  Utilizando diferentes módulos ethernet y wifi veremos como conectar Arduino a Internet y disponer de sus datos desde cualquier parte del mundo.<br>\
- Arduino + Cloud Services conforman la base principal para desarrollar tecnología emergente bajo la filosofia de la Internet de las Cosas.<br>\
+ Arduino + Cloud Services conforman la base principal para desarrollar tecnología emergente bajo la filosofía de la Internet de las Cosas.<br>\
  Crearemos servidores portables con Arduino y exploraremos las diferencias y ventajas de conectar Arduino con uno de los servicios en la nube\
- más potentes: Firebase.<br>\
+ más potentes: Firestore.<br>\
  ";
 workshops.arduino6.durationLevel = 8
 workshops.arduino6.durationClass = "1:30";
 workshops.arduino6.bonus = {};
-workshops.arduino6.bonus.arduino = 8500; 
-workshops.arduino6.bonus.robotica = 25;
-workshops.arduino6.bonus.programacion = 10;
-workshops.arduino6.bonus.electronica = 25;
-workshops.arduino6.bonus.electricidad = 5;
+workshops.arduino6.bonus.arduino = 850;
+workshops.arduino6.bonus.programacion = 250;
+workshops.arduino6.bonus.electronica = 75;
 workshops.arduino6.extrabonus = {};
 workshops.arduino6.extrabonus.programacion = 18300;
 workshops.arduino6.extrabonus.electronica = 7500;
@@ -288,19 +283,19 @@ workshops.arduino6.prices = {};
 workshops.arduino6.prices.clase = {};
 workshops.arduino6.prices.mensual = {};
 workshops.arduino6.prices.fulllevel = {};
-workshops.arduino6.prices.clase.old = 250;
-workshops.arduino6.prices.clase.bonus = 20;
-workshops.arduino6.prices.clase.new = 200;
-workshops.arduino6.prices.mensual.old = 1400;
-workshops.arduino6.prices.mensual.bonus = 28;
-workshops.arduino6.prices.mensual.new = 1000;
-workshops.arduino6.prices.fulllevel.old = 1200;
-workshops.arduino6.prices.fulllevel.bonus = 33;
-workshops.arduino6.prices.fulllevel.new = 800;
+workshops.arduino6.prices.clase.old = 3000;
+workshops.arduino6.prices.clase.bonus = 5;
+workshops.arduino6.prices.clase.new = 2850;
+workshops.arduino6.prices.mensual.old = 12000;
+workshops.arduino6.prices.mensual.bonus = 10;
+workshops.arduino6.prices.mensual.new = 10800;
+workshops.arduino6.prices.fulllevel.old = 24000;
+workshops.arduino6.prices.fulllevel.bonus = 20;
+workshops.arduino6.prices.fulllevel.new = 19200;
 workshops.arduino6.contents = [];
 workshops.arduino6.contents[0] = "Ethernet Shield";
 workshops.arduino6.contents[1] = "ESP8266";
-workshops.arduino6.contents[2] = "Firebase";
-workshops.arduino6.contents[3] = "Conección con Firebase";
+workshops.arduino6.contents[2] = "Firestore";
+workshops.arduino6.contents[3] = "Conección con Firestore";
 workshops.arduino6.contents[4] = "Cloud Functions";
 workshops.arduino6.contents[4] = "Proyecto IOT";
