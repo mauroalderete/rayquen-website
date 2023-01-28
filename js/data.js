@@ -86,21 +86,28 @@ var paymethod = {}
 paymethod.efectivo = {}
 paymethod.efectivo.title = "Efectivo";
 paymethod.efectivo.description = "Pagas el primer día de clases y comenzas a disfrutar";
-paymethod.efectivo.conditions = `* La vacante se reservará hasta el próximo Miercoles a las 13:00hs.
-<br>* Si no se presenta a la primera clase la reserva del horario se cancelará y
-    tendrá que volver a realizar los pasos de inscripción.`;
+paymethod.efectivo.conditions = `* Tené en cuenta que la vacante se reservará durante 5 días hábiles.
+<br>* Si no realiza el pago durante ese periodo la reserva del horario se
+    cancelará y tendrás que volver a realizar los pasos de inscripción.`;
 
 paymethod.mercadopago = {}
 paymethod.mercadopago.title = "Mercado Pago";
 paymethod.mercadopago.description = "Pagá con cualquiera de las facilidades que ofrece Mercado Pago y acreditalo al instante";
-paymethod.mercadopago.conditions = "* La acreditación se raliza al instante, así que solo te quedá venir a clases ;)";
+paymethod.mercadopago.conditions = `* Tan pronto como podamos te enviaremos un link de Mercado Pago a tu email para que puedas abonar de la forma que te resulte más cómoda
+<br>* La acreditación se ralizará al instante, así que solo tenes que preocuparte de asistir a clases
+<br>* Tené en cuenta que la vacante se reservará durante 5 días hábiles.
+<br>* Si no realiza el pago durante ese periodo la reserva del horario se
+    cancelará y tendrás que volver a realizar los pasos de inscripción.`;
 
 paymethod.transferencia = {}
 paymethod.transferencia.title = "Transferencia bancaria o depósito";
-paymethod.transferencia.description = `Wilo Bank
+paymethod.transferencia.description = `Santander Río
 <br>
 <b>CBU</b>
-384-20100-2-0000000107593-3
+0720767188000035653318
+<br>
+<b>ALIAS</b>
+FRENO.NIEBLA.MARINO
 <br>
 <b>TITULAR</b>
 Alderete Mauro José Enrique
