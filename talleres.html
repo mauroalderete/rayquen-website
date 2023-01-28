@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Mirrored from
+    oazad.com/templates/gxap-preview/gxap/single-post-fullwidth.html by HTTrack
+    Website Copier/3.x [XR&CO'2014], Thu, 28 Mar 2019 17:53:09 GMT -->
+    <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Talleres | Rayquen Talleres Educativos</title>
+
+        <!-- Favicon Included -->
+        <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon">
+        <!-- Apple Touch Icon -->
+        <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png"/>
+
+        <!-- All CSS files included here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bicon.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/slick-slider.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/venobox.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Custom CSS for user updates -->
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/css-talleres.css">
+
+    </head>
+    <body id="page-top">
+        <!-- wpsuper loader start -->
+        <div id="wpsuper-loader">
+            <div class="loader-wrapper">
+                <div class="loader-content">
+                    <div class="loader-dot dot-four"></div>
+                    <div class="loader-dot dot-three"></div>
+                    <div class="loader-dot dot-two"></div>
+                    <div class="loader-dot dot-one"></div>
+                </div>
+            </div>
+        </div>
+        <!-- wpsuper loader End -->
+        <!-- Main wrapper start -->
+        <div class="wrapper">
+            <!-- Header area start -->
+            <header class="sticky-header header-area transparent-header">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md">
+                        <a class="navbar-brand" href="index.html">
+                            Rayquen<i class="fa fa-play"></i>
+                        </a>
+                        <div
+                            class="navbar-toggler hamburger hamburger--collapse"
+                            data-toggle="collapse"
+                            data-target="#navbar-main">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                        <div id="navbar-main" class="navbar-collapse collapse justify-content-end">
+                            <ul class="navbar-nav main-menu">
+                                <li>
+                                    <a class="nav-link" href="index.html#page-top">Inicio</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#service">Programas<br>Educativos</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#about">Nosotros</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#features">Cualidades</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="javascript:null;">Talleres</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#pricing">Precios</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#contact">Contacto</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- Header area end -->
+            <!-- Main content start -->
+            <section class="main-content">
+                <!-- Breadcrumb area start -->
+                <div class="breadcrumb-section bg-img bg-img-1 gradient-op-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="breadcrumb-content area-heading white">
+                                    <h3 class="area-title">Hay talleres para todos los gustos.<br><br>Descubrí el tuyo.</h3>
+                                    <a href="#goSkills" class="nav-enlace title btn-outline-light btn">Elegí el taller que más te gusta</a><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb area end -->
+                <!-- Blog area start -->
+                <div class="started-section ptb-50">
+                    <div id="goSkills" class="container">
+                        <br>
+                        <div class="row">
+                            <!--<div class="col-lg-10 offset-lg-1 col-md-12 single-post">-->
+                            <div class="col-lg-12">
+                                <div class="interface-slide wow fadeInDown" data-wow-delay=".2s">
+                                    <div class="swiper-container interface-slider2">
+                                        <div id="skill-list" class="swiper-wrapper">
+                                            <script id="skill-item" type="templates">
+                                                <div class="swiper-slide">
+                                                    <div class="xboo__overlay">
+                                                        <img src="images/skills/{{img}}" alt="">
+                                                        <a class="interface-icon nav-enlace" href="#levels" data-skill="{{skill}}">
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </script>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <div class="swiper-pagination2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog area end -->
+                <!-- Levels Section start -->
+                <div id="levels" class="levels">
+
+                    <script id="level-list" type="templates">
+                        <div id="{{skill}}-level-list" class="row talleresSection noshow"></div>
+                    </script>
+
+                    <script id="level-item" type="templates">
+                        <div class="col-md-6 col-lg-4 tallerColumn">
+                            <a
+                                id="levelCard"
+                                data-level={{idlevel}}                                }="}"
+                                data-toggle="modal"
+                                data-target="#modal-info"
+                                class="tallerCard">
+                                <div class="row tallerBranchBar">
+                                    <div class="col-8">
+                                        <span class="tallerBranchLegend">Skill</span>
+                                        <span class="tallerBranchTitle">
+                                            |
+                                            {{skill}}</span>
+                                    </div>
+                                    <div class="col-4 tallerLevelLegend ">
+                                        LEVEL
+                                        {{level}}
+                                    </div>
+                                </div>
+                                <div class="row tallerNameArea">
+                                    <div class="col-8 align-self-center tallerName">
+                                        {{name}}
+                                    </div>
+                                    <div class="col-4 tallerTitleArea">
+                                        <div class="tallerTitleIcon">
+                                            <i class="fa fa-envira fa-align-left"></i>
+                                        </div>
+                                        <div class="tallerTitle">
+                                            {{title}}
+                                        </div>
+                                        <div class="tallerExp">
+                                            +{{exp}}
+                                            XP
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row tallerDurationBar">
+                                    <div class="col-8 tallerDurationClass">
+                                        {{durationLevel}}
+                                        CLASES
+                                    </div>
+                                    <div class="col-4 tallerDurationHour">
+                                        {{durationClass}}HS
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </script>
+                </div>
+                <!-- Levels Sections end -->
+
+            </section>
+            <!-- Main content end -->
+            <!-- Footer section start -->
+            <footer class="theme-footer-section">
+                <!-- Footer top section start -->
+                <div class="footer-top-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <aside class="footer-widget">
+                                    <div class="footer-logo-heading">
+                                        <a class="footer-logo" href="index.html">gxap<i class="fa fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="footer-widget-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim deserunt quia
+                                            quis explicabo itaque nostrum unde, porro quibusdam vitae repudiandae!</p>
+                                        <ul class="social-bookmark left">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-pinterest"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-dribbble"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-lg col-md-6">
+                                <aside class="footer-widget">
+                                    <h3 class="footer-widget-title">quick links</h3>
+                                    <div class="footer-widget-content">
+                                        <ul class="quick-link">
+                                            <li>
+                                                <a href="#">Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy & terms</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sitemap</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-lg col-md-6">
+                                <aside class="footer-widget">
+                                    <h3 class="footer-widget-title">download now</h3>
+                                    <div class="footer-widget-content">
+                                        <div class="download-icon">
+                                            <ul class="download-icon-menu">
+                                                <li>
+                                                    <a href="#"><img src="images/icons/app-store.png" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="images/icons/gplay.png" alt=""></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-lg col-md-6">
+                                <aside class="footer-widget">
+                                    <h3 class="footer-widget-title">Address</h3>
+                                    <div class="footer-widget-content quick-address">
+                                        <p>Awesome Company.</p>
+                                        <p>
+                                            Reno, New York City, USA</p>
+                                        <p>+880044 545 989 626</p>
+                                        <a href="#">info@example.com</a>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer top section end -->
+                <!-- Footer Bottom section start -->
+                <div class="footer-bottom-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="copy-right-info">
+                                    <p>&copy; 2019 All right reserved by
+                                        <a href="#">wpsuper</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#">home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">about</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">causes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">event</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Bottom section end -->
+            </footer>
+            <!-- Footer section end -->
+        </div>
+        <!-- Main wrapper end -->
+
+        <!-- Modal Info start -->
+        <div class="modal fade" id="modal-info" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 id="var-name" class="modal-tallerInfo-title">A</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body modal-tallerInfo">
+                        <p id="var-description"></p>
+                        <h5 class="modal-title">Tier Bonus
+                            <i class="fa fa-play"></i>
+                        </h5>
+                        <div class="modal-subtitle">¿Cuántos puntos de experiencia gano?</div>
+                        <div class="modal-exp">
+                            <div id="bonus-list" class="row align-self-center"></div>
+                        </div>
+
+                        <h5 class="modal-title">Contenidos
+                            <i class="fa fa-play"></i>
+                        </h5>
+                        <div class="modal-subtitle">¿Qué voy a aprender?</div>
+                        <ul id="content-list" class="modal-contents"></ul>
+
+                        <h5 class="modal-title">Requerimientos
+                            <i class="fa fa-play"></i>
+                        </h5>
+                        <div class="modal-subtitle">¿Qué Skills necesito para cursar este nivel?</div>
+                        <ul id="require-list" class="modal-requires"></ul>
+
+                        <h5 class="modal-title">Sugerimos
+                            <i class="fa fa-play"></i>
+                        </h5>
+                        <div class="modal-subtitle">¿Qué otras Skills sugieren para aumentar mis puntos de experiencias?</div>
+                        <ul id="extrabonus-list" class="modal-ul"></ul>
+
+                        <h5 class="modal-title">Precios
+                            <i class="fa fa-play"></i>
+                        </h5>
+                        <div class="modal-subtitle">¿Qué planes estan disponibles para pagar el nivel?</div>
+
+                        <div id="price-list" class="row align-self-center modal-price "></div>
+                    </div>
+                    <div id="modal-foot" class="modal-footer">
+                        <h2 class="lbl-tallerInfoSelect">¿Te gusta este taller?</h2>
+                        <br>
+                        <a
+                            href="horarios.html"
+                            class="btn btn-gradient btn-active btn-tallerInfoSelect">¡ES GENIAL!<br>quiero inscibirme ya</a>
+                        <br>
+                        <div class="footer-line"></div>
+                        <br>
+                        <button type="button" class="btn btn-outline-light" data-dismiss="modal">X</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Modal Info end -->
+        <!-- Modal Info templates start -->
+        <script id="bonus-item" type="templates">
+
+            <div class="col">
+                <span class="exp">+{{exp}}
+                    XP<br>{{skill}}</span>
+            </div>
+
+        </script>
+        <script id="content-item" type="templates">
+
+            <li>
+                <div class="modal-contents-dot"></div>
+                {{content}}</li>
+        </script>
+
+        <script id="require-item" type="templates">
+            <li>Requiere
+                {{exp}}
+                XP de la Skill
+                {{skill}}
+            </li>
+        </script>
+        <script id="extrabonus-item" type="templates">
+            <li>
+                <span class="exp">+{{extraexp}}
+                    XP
+                    {{skill}}</span>
+                disponibles en
+                <span class="skill">Skill
+                    {{extraskill}}</span>
+            </li>
+        </script>
+        <script id="price-item" type="templates">
+            <div class="col">
+                <div class="plan">{{plan}}</div>
+                <div class="off">
+                    <span class="off-old">${{old}}</span>
+                    -{{bonus}}%
+                </div>
+                <div class="precio">${{new}}</div>
+            </div>
+        </script>
+        <script id="foot-inscripcion" type="templates">
+            <h2 class="lbl-tallerInfoSelect">¿Te gusta este taller?</h2>
+            <br>
+            <a
+                href="horarios.html"
+                class="btn btn-gradient btn-active btn-tallerInfoSelect">¡ES GENIAL!<br>quiero inscibirme ya</a>
+            <br>
+            <div class="footer-line"></div>
+            <br>
+            <button type="button" class="btn btn-outline-light" data-dismiss="modal">X</button>
+        </script>
+        <script id="foot-empezar" type="templates">
+            <h2 class="lbl-tallerInfoSelect">¿Te gusta lo que ves de la Skill {{skill}}?</h2>
+            <br>
+            <a
+                href="horarios.html"
+                class="btn btn-gradient btn-active btn-tallerInfoSelect">¡ME ENCANTA!<br>quiero empezar ya desde el primer nivel</a>
+            <br>
+            <div class="footer-line"></div>
+            <br>
+            <button type="button" class="btn btn-outline-light" data-dismiss="modal">X</button>
+        </script>
+        <!-- Modal Info templates end -->
+
+        <!-- All javascript plugins are included here -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/rellax.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/venobox.min.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/jquery.counter.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/data-skill-arduino.js"></script>
+        <script src="js/data-skill-robotic.js"></script>
+        <script src="js/data-skill-codingforkids.js"></script>
+        <script src="js/data-skill-mobileappsdevelopment.js"></script>
+        <script src="js/data-skill-desktopappsdevelopment.js"></script>
+        <script src="js/data-skill-gamedevelopment.js"></script>
+        
+        <script src="js/scripts-talleres.js"></script>
+    </body>
+
+    <!-- Mirrored from
+    oazad.com/templates/gxap-preview/gxap/single-post-fullwidth.html by HTTrack
+    Website Copier/3.x [XR&CO'2014], Thu, 28 Mar 2019 17:53:09 GMT -->
+</html>

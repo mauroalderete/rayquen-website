@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------
+
+Template: Templat Name
+Author:
+Author URI:
+Version:  1.0
+Design and Developed by:
+
+Note: This is the file where you can add your custom styles to change the look of the theme.
+But don't modify "style.css" file.
+
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom CSS code here:
+-------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@font-face {
+	font-family: "Cocon-RegularTR";
+	src: url("../fonts/Cocon-RegularTR.ttf");
+  }
+
+  /*COLORES
+  *gradiente dark	#5225f8
+  *gradiente light	#a343f8
+  *skill legend		#a343f8
+  *header			#b683fb
+  *name				#ffffff
+  *title icon		#383838
+  *title			#383838
+  *exp				#f87656
+  *footbar			#5225f8
+  *foot font		#b683fb
+  */
+
+/*******************************************
+* Datos Personales::datos.html
+********************************************/
+
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+}
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+}
+
+.personaldata-title{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed';
+	font-size: 30px;
+	color: rgb(77, 75, 75);
+	margin-bottom: 30px;
+}
+
+.btn-doubleLine{
+	line-height: 1.5em;
+}

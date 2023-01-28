@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Mirrored from
+    oazad.com/templates/gxap-preview/gxap/single-post-fullwidth.html by HTTrack
+    Website Copier/3.x [XR&CO'2014], Thu, 28 Mar 2019 17:53:09 GMT -->
+    <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Datos personales - Rayquen Talleres Educativos</title>
+
+        <!-- Favicon Included -->
+        <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon">
+        <!-- Apple Touch Icon -->
+        <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png"/>
+
+        <!-- All CSS files included here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bicon.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/slick-slider.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/venobox.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Custom CSS for user updates -->
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/css-datos.css">
+
+    </head>
+    <body id="page-top">
+        <!-- wpsuper loader start -->
+        <div id="wpsuper-loader">
+            <div class="loader-wrapper">
+                <div class="loader-content">
+                    <div class="loader-dot dot-four"></div>
+                    <div class="loader-dot dot-three"></div>
+                    <div class="loader-dot dot-two"></div>
+                    <div class="loader-dot dot-one"></div>
+                </div>
+            </div>
+        </div>
+        <!-- wpsuper loader End -->
+        <!-- Main wrapper start -->
+        <div class="wrapper">
+            <!-- Header area start -->
+            <header class="sticky-header header-area transparent-header">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md">
+                        <a class="navbar-brand" href="index.html">
+                            Rayquen<i class="fa fa-play"></i>
+                        </a>
+                        <div
+                            class="navbar-toggler hamburger hamburger--collapse"
+                            data-toggle="collapse"
+                            data-target="#navbar-main">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                        <div id="navbar-main" class="navbar-collapse collapse justify-content-end">
+                            <ul class="navbar-nav main-menu">
+                                <li>
+                                    <a class="nav-link" href="index.html#page-top">Inicio</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#service">Programas<br>Educativos</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#about">Nosotros</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#features">Cualidades</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#talleres">Talleres</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#pricing">Precios</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="index.html#contact">Contacto</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- Header area end -->
+            <!-- Main content start -->
+            <section class="main-content">
+                <!-- Breadcrumb area start -->
+                <div class="breadcrumb-section bg-img bg-img-1 gradient-op-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="breadcrumb-content area-heading white">
+                                    <h3 class="area-title">Ya falta poco.<br><br>Queremos saber de vos.</h3>
+                                    <a href="#stepThree" class="nav-enlace title btn-outline-light btn">Completá el formulario con algunos datos personales.</a><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb area end -->
+                <!-- Blog area start -->
+                <div class="started-section">
+                    <div id="stepThree" class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-10 offset-lg-1">
+                                <div class="contact-message wow fadeIn" data-wow-delay=".2s">
+                                    <h5 class="area-subtitle">Quien va a participar del taller<br>¿es menor de edad?</h5>
+                                    <br>
+                                    <div class="row justify-content-center">
+                                        <button id="personaldata-btnYes" class="col btn btn-gradient btn-active">Si, soy su padre/madre/tutor/responsable</button>
+                                        <button
+                                            id="personaldata-btnNo"
+                                            class="col btn btn-gradient btn-active btn-doubleLine">No, soy mayor de edad<br>
+                                            y quiero inscribirme</button>
+                                    </div>
+
+                                    <!-- Datos como menor Start-->
+                                    <form
+                                        id="form-junior"
+                                        action="http://rayquen.com/php/mailInscripcion.php"
+                                        method="POST">
+
+                                        <div id="personaldata-yes" class="row">
+                                            <div class="col-12 personaldata-title">Datos del alumno</div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="name"
+                                                        class="form-control"
+                                                        id="name"
+                                                        placeholder="Nombres"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="surname"
+                                                        class="form-control"
+                                                        id="surname"
+                                                        placeholder="Apellido"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="number"
+                                                        name="dni"
+                                                        class="form-control"
+                                                        id="dni"
+                                                        placeholder="DNI"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="date"
+                                                        name="date"
+                                                        class="form-control"
+                                                        id="date"
+                                                        placeholder="Fecha de nacimiento"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="address"
+                                                        class="form-control"
+                                                        id="address"
+                                                        placeholder="Domicilio"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="city"
+                                                        class="form-control"
+                                                        id="city"
+                                                        placeholder="Localidad"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="email"
+                                                        name="email"
+                                                        class="form-control"
+                                                        id="email"
+                                                        placeholder="Correo electrónico">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 personaldata-title">Datos del padre / madre / tutor / responsable</div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="nameAdult"
+                                                        class="form-control"
+                                                        id="nameAdult"
+                                                        placeholder="Nombres"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="surnameAdult"
+                                                        class="form-control"
+                                                        id="surnameAdult"
+                                                        placeholder="Apellido"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="number"
+                                                        name="dniAdult"
+                                                        class="form-control"
+                                                        id="dniAdult"
+                                                        placeholder="DNI"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="date"
+                                                        name="dateAdult"
+                                                        class="form-control"
+                                                        id="dateAdult"
+                                                        placeholder="Fecha de nacimiento">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="email"
+                                                        name="emailAdult"
+                                                        class="form-control"
+                                                        id="emailAdult"
+                                                        placeholder="Correo electrónico"
+                                                        required="required">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="tel"
+                                                        name="phone1"
+                                                        id="phone1"
+                                                        class="form-control"
+                                                        placeholder="Celular">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="tel"
+                                                        name="phone2"
+                                                        id="phone2"
+                                                        class="form-control"
+                                                        placeholder="Teléfono">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="tel"
+                                                        name="phone3"
+                                                        id="phone3"
+                                                        class="form-control"
+                                                        placeholder="Teléfono Alternativo">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea
+                                                        id="message"
+                                                        name="message"
+                                                        class="form-control"
+                                                        rows="3"
+                                                        placeholder="¿Hay algo más que quiera contarnos?"></textarea>
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                                <button type="submit" class="btn btn-gradient btn-active">Continuar con el último paso
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <!-- Datos como menor End-->
+
+                                    <!-- Datos como adulto Start-->
+                                    <form
+                                        id="form-senior"
+                                        action="http://rayquen.com/php/mailInscripcion.php"
+                                        method="POST">
+
+                                        <div id="personaldata-no" class="row">
+                                            <div class="col-12 personaldata-title">Tus datos personales</div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="name"
+                                                        class="form-control"
+                                                        id="name"
+                                                        placeholder="Nombres"
+                                                        required="required"
+                                                        value="Mauro">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="surname"
+                                                        class="form-control"
+                                                        id="surname"
+                                                        placeholder="Apellido"
+                                                        required="required"
+                                                        value="Alderete">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="number"
+                                                        name="dni"
+                                                        class="form-control"
+                                                        id="dni"
+                                                        placeholder="DNI"
+                                                        required="required"
+                                                        value="33840771">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="date"
+                                                        name="date"
+                                                        class="form-control"
+                                                        id="date"
+                                                        placeholder="Fecha de nacimiento"
+                                                        required="required"
+                                                        value="1988-05-18">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="address"
+                                                        class="form-control"
+                                                        id="address"
+                                                        placeholder="Domicilio"
+                                                        required="required"
+                                                        value="Cabildo 1091">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="city"
+                                                        class="form-control"
+                                                        id="city"
+                                                        placeholder="Localidad"
+                                                        required="required"
+                                                        value="Villa de Mayo">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="email"
+                                                        name="email"
+                                                        class="form-control"
+                                                        id="email"
+                                                        placeholder="Correo electrónico"
+                                                        value="alderete.mauro@gmail.com">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="tel"
+                                                        name="phone1"
+                                                        id="phone1"
+                                                        class="form-control"
+                                                        placeholder="Celular">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="tel"
+                                                        name="phone2"
+                                                        id="phone2"
+                                                        class="form-control"
+                                                        placeholder="Teléfono">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input
+                                                        type="tel"
+                                                        name="phone3"
+                                                        id="phone3"
+                                                        class="form-control"
+                                                        placeholder="Teléfono Alternativo">
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea
+                                                        id="message"
+                                                        name="message"
+                                                        class="form-control"
+                                                        rows="3"
+                                                        placeholder="¿Hay algo más que quiera contarnos?"></textarea>
+                                                    <div class="form-grad-border"></div>
+                                                </div>
+                                                <button type="submit" class="btn btn-gradient btn-active">Continuar con el último paso
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <!-- Datos con alumno End-->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog area end -->
+            </section>
+            <!-- Main content end -->
+            <!-- Footer section start -->
+            <footer class="theme-footer-section">
+                <!-- Footer top section start -->
+                <div class="footer-top-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <aside class="footer-widget">
+                                    <div class="footer-logo-heading">
+                                        <a class="footer-logo" href="index.html">gxap<i class="fa fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="footer-widget-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim deserunt quia
+                                            quis explicabo itaque nostrum unde, porro quibusdam vitae repudiandae!</p>
+                                        <ul class="social-bookmark left">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-pinterest"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-dribbble"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-lg col-md-6">
+                                <aside class="footer-widget">
+                                    <h3 class="footer-widget-title">quick links</h3>
+                                    <div class="footer-widget-content">
+                                        <ul class="quick-link">
+                                            <li>
+                                                <a href="#">Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy & terms</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sitemap</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-lg col-md-6">
+                                <aside class="footer-widget">
+                                    <h3 class="footer-widget-title">download now</h3>
+                                    <div class="footer-widget-content">
+                                        <div class="download-icon">
+                                            <ul class="download-icon-menu">
+                                                <li>
+                                                    <a href="#"><img src="images/icons/app-store.png" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="images/icons/gplay.png" alt=""></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-lg col-md-6">
+                                <aside class="footer-widget">
+                                    <h3 class="footer-widget-title">Address</h3>
+                                    <div class="footer-widget-content quick-address">
+                                        <p>Awesome Company.</p>
+                                        <p>
+                                            Reno, New York City, USA</p>
+                                        <p>+880044 545 989 626</p>
+                                        <a href="#">info@example.com</a>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer top section end -->
+                <!-- Footer Bottom section start -->
+                <div class="footer-bottom-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="copy-right-info">
+                                    <p>&copy; 2019 All right reserved by
+                                        <a href="#">wpsuper</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#">home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">about</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">causes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">event</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Bottom section end -->
+            </footer>
+            <!-- Footer section end -->
+        </div>
+        <!-- Main wrapper end -->
+
+        <!-- All javascript plugins are included here -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/rellax.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/venobox.min.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/jquery.counter.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/scripts-datos.js"></script>
+    </body>
+
+    <!-- Mirrored from
+    oazad.com/templates/gxap-preview/gxap/single-post-fullwidth.html by HTTrack
+    Website Copier/3.x [XR&CO'2014], Thu, 28 Mar 2019 17:53:09 GMT -->
+</html>
